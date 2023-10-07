@@ -1,0 +1,19 @@
+.navbar-toggler img {
+  /* original svg is green */
+  filter: brightness(0) saturate(100%) invert(81%) sepia(27%)
+    saturate(6951%) hue-rotate(211deg) brightness(101%) contrast(103%);
+  transition: transform 0.5s, transform-origin 0.25s, display 0.33s;
+}
+.navbar-toggler img:hover {
+  transform: scaleY(92%);
+}
+.navbar-toggler img:active {
+  display: inline-block;
+  transform-origin: 0.25rem 0.25rem;
+  -o-transform-origin: 0.25rem 0.25rem;
+  -ms-transform-origin: 0.25rem 0.25rem;
+  -moz-transform-origin: 0.25rem 0.25rem;
+  -webkit-transform-origin: 0.25rem 0.25rem;
+  transform: rotate(90deg);
+}
+

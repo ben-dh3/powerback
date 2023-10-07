@@ -1,0 +1,31 @@
+.nav-links {
+    justify-content: space-evenly;
+  }
+  .nav-links .nav-link {
+    color: #6da7f9 !important;
+    transition: color 0.25s, text-shadow 0.25s;
+  }
+  .nav-links .nav-link:hover {
+    color: #90beff !important;
+    text-shadow: 1px 1px 2px #2b2b2b;
+  }
+  /*** SCREEN SIZES ***/
+  /* Mobile, portrait */
+  @media only screen and (max-width: 599px) and (orientation: portrait) {
+  }
+  /* Mobile, landscape */
+  @media only screen and (min-width: 600px) and (orientation: landscape) {
+  }
+  /* Tablet, portrait */
+  @media only screen and (min-width: 600px) and (orientation: portrait) {
+  }
+  /* Tablet, landscape */
+  @media only screen and (min-width: 900px) and (orientation: landscape) {
+  }
+  /* Desktop */
+  @media only screen and (min-width: 1200px) {
+  }
+  /* Big Screen */
+  @media only screen and (min-width: 1800px) {
+  }
+  

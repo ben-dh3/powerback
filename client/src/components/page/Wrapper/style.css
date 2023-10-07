@@ -1,0 +1,28 @@
+/*** SCREEN SIZES ***/
+/* Mobile, portrait */
+@media only screen and (max-width: 599px) and (orientation: portrait) {
+  main.wrapper {
+    align-items: center;
+    /* height: 80vh; */
+    width: 100%;
+  }
+  /* main .wrapper.row, */
+  main .wrapper.col {
+    max-width: 100%;
+  }
+}
+  
+/* Tablet, landscape */
+@media only screen and (min-width: 900px) and (orientation: landscape) {
+  main.wrapper,
+  main.wrapper-pol-donation {
+    height: 100vh !important;
+  }
+  main.wrapper-payment,
+  main.wrapper-support {
+    height: 80vh !important;
+  }
+  main.wrapper-tips {
+    height: 68vh !important;
+  }
+}

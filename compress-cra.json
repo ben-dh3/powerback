@@ -1,0 +1,7 @@
+{
+  "filetypes": [".js", ".html", ".css", ".svg"],
+  "directory": "/client/build",
+  "algorithms": ["br", "gz"],
+  "retainUncompressedFiles": true,
+  "asynchronousCompression": true
+}

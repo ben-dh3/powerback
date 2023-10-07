@@ -1,0 +1,34 @@
+import { Role } from '@Types';
+import { ObjectId } from 'mongodb';
+
+export type HouseMember = {
+  middle_name: string | null;
+  facebook_account: string;
+  google_entity_id: string;
+  most_recent_vote: string;
+  times_topics_url: string;
+  twitter_account: string;
+  youtube_account: string;
+  current_party: string;
+  date_of_birth: string;
+  suffix: string | null;
+  last_updated: string;
+  votesmart_id: string;
+  govtrack_id: string;
+  first_name: string;
+  in_office: boolean;
+  last_name: string;
+  member_id: string;
+  times_tag: string;
+  cspan_id: string;
+  icpsr_id: string;
+  createdAt: Date;
+  updatedAt: Date;
+  crp_id: string;
+  gender: string;
+  rss_url: URL;
+  _id: ObjectId;
+  id: string;
+  url: URL;
+  roles: [Role];
+};

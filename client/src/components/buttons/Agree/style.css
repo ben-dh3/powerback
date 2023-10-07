@@ -1,0 +1,12 @@
+.agree-btn {
+  filter: invert(11%) sepia(52%) saturate(201%) hue-rotate(101deg)
+    brightness(102%) contrast(102%);
+  margin-left: 31% !important;
+  margin-right: 31% !important;
+}
+.agree-btn:active {
+  color: #0dcaf0 !important;
+  border: inset 1px #0dcaf088 !important;
+  background-color: #0dcaf008 !important;
+  box-shadow: inset 0px 0px 0px 2px #1c1c1c;
+}

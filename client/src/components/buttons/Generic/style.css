@@ -1,0 +1,14 @@
+.generic-btn {
+  color: #1b1b1b;
+  background-color: #c9f;
+}
+.generic-btn:hover {
+  color: #1b1b1b !important;
+  border-style: inset;
+  background-color: hsl(270, 100%, 77%) !important;
+}
+.generic-btn:active {
+  color: #1b1b1b !important;
+  border-style: outset;
+  background-color: hsl(270, 100%, 82%) !important;
+}
